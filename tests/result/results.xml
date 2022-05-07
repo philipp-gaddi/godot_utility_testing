@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuites failures="0" name="TestXML" tests="2" time="1.791">
+	<testsuite name="Graph Tests" failures="0"  tests="7" time="0">
+		<testcase name=" adjacency" time="0"></testcase>
+		<testcase name=" neighbours" time="0"></testcase>
+		<testcase name=" add vertex" time="0"></testcase>
+		<testcase name=" remove vertex" time="0"></testcase>
+		<testcase name=" add edge" time="0"></testcase>
+		<testcase name=" remove edge" time="0"></testcase>
+		<testcase name=" reset visited" time="0"></testcase>
+	</testsuite>
+
+	<testsuite name="Graph Iterator Tests" failures="0"  tests="4" time="0">
+		<testcase name=" breadth first search" time="0"></testcase>
+		<testcase name=" depth first search" time="0"></testcase>
+		<testcase name=" dfs continue search" time="0"></testcase>
+		<testcase name=" bfs continue search" time="0"></testcase>
+	</testsuite>
+
+</testsuites>
