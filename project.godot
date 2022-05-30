@@ -9,6 +9,26 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Object",
+"class": "BFS_itr",
+"language": "GDScript",
+"path": "res://addons/godot_utility/datastructure/graph/bfs_itr.gd"
+}, {
+"base": "Object",
+"class": "DFS_itr",
+"language": "GDScript",
+"path": "res://addons/godot_utility/datastructure/graph/dfs_itr.gd"
+}, {
+"base": "Object",
+"class": "Graph",
+"language": "GDScript",
+"path": "res://addons/godot_utility/datastructure/graph/graph.gd"
+}, {
+"base": "Object",
+"class": "Vertex",
+"language": "GDScript",
+"path": "res://addons/godot_utility/datastructure/graph/vertex.gd"
+}, {
 "base": "Reference",
 "class": "WAT",
 "language": "GDScript",
@@ -20,6 +40,10 @@ _global_script_classes=[ {
 "path": "res://addons/WAT/test/test.gd"
 } ]
 _global_script_class_icons={
+"BFS_itr": "",
+"DFS_itr": "",
+"Graph": "",
+"Vertex": "",
 "WAT": "",
 "WATTest": ""
 }
@@ -43,7 +67,7 @@ config/icon="res://icon.png"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/WAT/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/WAT/plugin.cfg", "res://addons/godot_utility/datastructure/plugin.cfg" )
 
 [physics]
 
